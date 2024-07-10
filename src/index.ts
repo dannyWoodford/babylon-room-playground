@@ -81,7 +81,7 @@ for (const texture of scene.textures) {
   const segments = 32
   const diameter = 1
   const sphere = BABYLON.MeshBuilder.CreateSphere('sphere', { segments, diameter }, scene)
-  sphere.position.y = 5
+  sphere.position.y = 15
   addPhysicsImposter(sphere, BABYLON.PhysicsShapeType.SPHERE, scene)
 }
 
